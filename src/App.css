@@ -934,6 +934,10 @@
     font-size: 14px;
     color: #858688;
   }
+
+  .str-chat__li--single {
+    padding-right: 3rem;
+  }
   
   .team-channel-list {
     width: 100%;
@@ -1812,6 +1816,9 @@
     .channerl-list__container-toggle {
       right: -3%;
     }
+    .str-chat__li--single {
+      padding-right: 1rem;
+    }
   }
   
   @media screen and (max-width: 400px) {
@@ -1822,11 +1829,13 @@
     .channerl-list__container-toggle {
       right: -5%;
     }
+
   }
   
   @media screen and (max-width: 320px) {
     .channel-list__sidebar {
       display: none;
     }
+
   }
   
