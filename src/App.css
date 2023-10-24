@@ -937,6 +937,7 @@
 
   .str-chat__li--single {
     padding-right: 3rem;
+    padding-left: 2rem;
   }
   
   .team-channel-list {
@@ -1818,7 +1819,9 @@
     }
     .str-chat__li--single {
       padding-right: 1rem;
+      padding-left: 1rem;
     }
+
   }
   
   @media screen and (max-width: 400px) {
