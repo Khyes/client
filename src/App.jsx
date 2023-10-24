@@ -29,7 +29,7 @@ if (authToken) {
 }
 
 const App = () => {
-  const [createType, setCreateType] = useState("");
+  const [createType, setCreateType] = useState('');
   const [isCreating, setIsCreating] = useState(false);
   const [isEditing, setIsEditing] = useState(false);
 
